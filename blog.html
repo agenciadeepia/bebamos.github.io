@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebamos - Recetas de Tragos de Autor</title>
+	<link rel="icon" href="images/Min_Osc.png" type="image/png">
+
+	<!-- Enlace a la fuente Kanit desde Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"  crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/Claro.png" alt="Logo" width="150" height="83"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link activepage" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="recetas.html">Recetas</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="essentials.html">Essentials</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section id="portadablog" class="py-5 bg-dark text-white">
+    <div class="container aboutbebamosdiv text-center">
+        <h2 class="display-4 mt-4 mb-2mb-2"><span class="serif">Blog</span> de coctelería</h2>
+        <p class="lead">Encontrá inspiración y consejos para disfrutar al máximo del mundo de la mixología.</p>
+        <!-- <a href="#cocktailBlog" class="arrow-down"><i class="fas fa-arrow-down"></i></a> -->
+    </div>
+</section>
+	
+<!-- Blog de coctelería -->
+<section id="cocktailBlog" class="py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/blog-post-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Los secretos detrás de un Negroni <span class="serif">perfecto</span></h5>
+                        <p class="card-text">Descubrí los secretos detrás de un Negroni perfecto: los ingredientes, la historia y la receta para prepararlo como un profesional.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#negroniModal">Leer más</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/blog-post-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cómo hacer un Mojito <span class="serif">refrescante</span> en casa</h5>
+                        <p class="card-text">Aprendé los pasos simples para preparar un Mojito refrescante en casa que te transportará a las playas de Cuba.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mojitoModal">Leer más</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/blog-post-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Los cócteles más populares <span class="serif">del mundo</span></h5>
+                        <p class="card-text">Desde el clásico Martini hasta el exótico Mai Tai, estos tragos han conquistado los paladares de personas en todas partes.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#popularesModal">Leer más</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4: Guía de Mixología -->
+<div class="col-md-4">
+    <div class="card mb-4">
+        <img src="images/blog-post-4.jpg" class="card-img-top" alt="Guía de Mixología">
+        <div class="card-body">
+            <h5 class="card-title">Guía de <span class="serif">mixología</span></h5>
+            <p class="card-text">Descargá nuestra guía de mixología gratuita y aprendé las técnicas básicas y avanzadas para crear cócteles impresionantes.</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mixologiaModal">Descargar</button>
+        </div>
+    </div>
+</div>
+
+<!-- Card 5: Recetas de Cócteles -->
+<div class="col-md-4">
+    <div class="card mb-4">
+        <img src="images/blog-post-5.jpg" class="card-img-top" alt="Recetas de Cócteles">
+        <div class="card-body">
+            <h5 class="card-title">Recetas de la <span class="serif">comunidad</span></h5>
+            <p class="card-text">Explorá nuestra colección de recetas de cócteles y descubrí nuevas y emocionantes combinaciones de sabores.</p>
+                       <a href="recetas.html" class="btn btn-primary">Explorar</a>
+
+        </div>
+    </div>
+</div>
+
+<!-- Card 6: Consejos de Mixología -->
+<div class="col-md-4">
+    <div class="card mb-4">
+        <img src="images/blog-post-6.jpg" class="card-img-top" alt="Consejos de Mixología">
+        <div class="card-body">
+            <h5 class="card-title"><span class="serif">Consejos</span> de mixología</h5>
+            <p class="card-text">Obtené consejos útiles de expertos en mixología sobre cómo mejorar tus habilidades.</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#consejosModal">Leer más</button>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</section>
+	<!-- Modal Negroni -->
+<div class="modal fade" id="negroniModal" tabindex="-1" aria-labelledby="negroniModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="negroniModalLabel">Los secretos detrás de un Negroni perfecto</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <!-- Contenido del modal para el Negroni -->
+                <p>El Negroni perfecto requiere una cuidadosa combinación de ingredientes y proporciones. Comienza con partes iguales de ginebra, vermut rojo y Campari en un vaso mezclador lleno de hielo. Revuelve con suavidad para evitar diluir demasiado la bebida. La clave está en encontrar un equilibrio entre la potencia herbal de la ginebra, la dulzura del vermut y el amargor del Campari. Sirve en un vaso Old Fashioned con una rodaja de naranja como guarnición, y disfruta de este clásico italiano con su característico sabor equilibrado y sofisticado.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Mojito -->
+<div class="modal fade" id="mojitoModal" tabindex="-1" aria-labelledby="mojitoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="mojitoModalLabel">Cómo hacer un Mojito refrescante en casa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <!-- Contenido del modal para el Mojito -->
+                <p>El Mojito es un cóctel cubano refrescante y lleno de sabor que combina ron blanco, menta fresca, lima, azúcar y soda. Originario de La Habana, este trago se ha convertido en uno de los favoritos en todo el mundo. Aprende a preparar el Mojito perfecto en casa con nuestra receta paso a paso.</p>
+				<p>Para preparar un Mojito refrescante en casa, comienza mezclando en un vaso alto unas hojas de menta fresca con azúcar y jugo de lima, luego añade hielo picado y vierte ron blanco sobre la mezcla. Agita vigorosamente, asegurándote de incorporar bien los sabores, y completa con agua con gas. Decora con una ramita de menta y una rodaja de lima, ¡y disfruta de este clásico cóctel cubano perfectamente equilibrado y refrescante!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Populares -->
+<div class="modal fade" id="popularesModal" tabindex="-1" aria-labelledby="popularesModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="popularesModalLabel">Los cócteles más populares del mundo</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <!-- Contenido del modal para los cócteles populares -->
+                <p>Los cócteles más populares del mundo son mucho más que simples mezclas de ingredientes; son verdaderas obras maestras de la mixología que han trascendido fronteras y culturas. Desde el clásico Martini hasta el exótico Mojito, estos tragos emblemáticos han conquistado los paladares de personas en todas partes, convirtiéndose en símbolos de elegancia, celebración y disfrute. Con una historia tan rica y variada como sus sabores, cada cóctel cuenta una narrativa única que refleja la creatividad y la diversidad de la cultura global de la coctelería.</p>
+				<p>Desde los glamorosos salones de la década de 1920 hasta los modernos bares de cócteles de hoy en día, estos brebajes han evolucionado con el tiempo, adaptándose a los gustos y tendencias del momento. Ya sea que prefieras los clásicos intemporales o las creaciones más innovadoras, hay un cóctel para cada ocasión y para cada gusto. En nuestro recorrido por los cócteles más populares del mundo, exploraremos las historias fascinantes detrás de cada trago, desde su origen hasta su legado en la cultura contemporánea. ¡Salud!</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Guía de Mixología -->
+<div class="modal fade" id="mixologiaModal" tabindex="-1" aria-labelledby="mixologiaModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="mixologiaModalLabel">Guía de Mixología</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <!-- Contenido del modal para la Guía de Mixología -->
+                <p>Nuestra guía de mixología gratuita te llevará desde los conceptos básicos hasta las técnicas avanzadas de preparación de cócteles. Aprende sobre los diferentes tipos de licores, herramientas de bar, técnicas de mezcla y mucho más. Descarga tu copia y conviértete en un experto bartender en poco tiempo.</p>
+				<a href="images/Mixologia1.docx" download class="btn btn-primary">Descargar</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Consejos de Mixología -->
+<div class="modal fade" id="consejosModal" tabindex="-1" aria-labelledby="consejosModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="consejosModalLabel">Consejos de mixología</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <!-- Contenido del modal para los Consejos de Mixología -->
+                <ul>
+                    <li><strong class="violeta">Proporciones precisas:</strong> Utiliza medidas exactas para cada ingrediente en tus cócteles. Esto garantiza un equilibrio adecuado de sabores.</li>
+                    <li><strong class="violeta">Técnica de agitado y mezclado:</strong> Aprende las técnicas correctas de agitado y mezclado para lograr una integración perfecta de los ingredientes.</li>
+                    <li><strong class="violeta">Selección de ingredientes frescos:</strong> Utiliza ingredientes frescos y de alta calidad para obtener el mejor sabor en tus cócteles.</li>
+                    <li><strong class="violeta">Presentación impecable:</strong> Presta atención a la presentación del cóctel, desde el vaso hasta la decoración. Una presentación atractiva hace que el cóctel sea aún más agradable de disfrutar.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+	
+<footer class="text-light text-center py-3 mt-6">
+    <p>© 2024 Bebamos - Powered by deepia</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="scripts.js"></script>
+
+<script>
+    ScrollReveal().reveal('.scroll', {
+        delay: 200,
+        distance: '30px',
+        origin: 'bottom',
+        duration: 500,
+        easing: 'ease-out',
+        interval: 200
+    });
+</script>
+</body>
+</html>

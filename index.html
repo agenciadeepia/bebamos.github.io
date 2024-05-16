@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebamos - Recetas de Tragos de Autor</title>
+    <link rel="icon" href="images/Min_Osc.png" type="image/png">
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Enlace a la fuente Kanit desde Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"  crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/Claro.png" alt="Logo" width="150" height="83"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="recetas.html">Recetas</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="essentials.html">Essentials</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section id="aboutBebamos" class="py-5 bg-dark text-white">
+    <div class="container aboutbebamosdiv text-center">
+        <h2 class="display-4 mt-4 mb-2"><span class="serif">¡Bienvenidos</span> a Bebamos!</h2>
+        <p class="lead">Social club para los <span class="serif">amantes</span> de la coctelería.</p>
+        <a href="#aboutBebamosContent" class="arrow-down"><i class="fas fa-arrow-down"></i></a>
+    </div>
+</section>
+
+<section id="aboutBebamosContent" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 scroll">
+                <h3 class="scroll" class="mb-4"><span class="serif">What is</span> Bebamos?</h3>
+                <p class="scroll">Bebamos es más que un club de coctelería, es una comunidad apasionada por la mixología y el arte de preparar tragos. Ofrecemos un espacio donde los amantes de los cócteles pueden compartir conocimientos, experiencias y descubrir nuevas recetas.</p>
+                <p class="scroll">Nuestro objetivo es crear un ambiente acogedor y divertido donde puedas aprender a preparar tus propios tragos, conocer a otros entusiastas y disfrutar de eventos exclusivos.</p>
+                <h3 class="mb-4 scroll">What do we <span class="serif">offer</span>?</h3>
+                <ul class="list-unstyled">
+                    <li class="scroll"><i class="fas fa-check"></i> Recetas exclusivas de tragos de autor</li>
+                    <li class="scroll"><i class="fas fa-check"></i> Tutoriales y consejos de expertos en mixología</li>
+                    <li class="scroll"><i class="fas fa-check"></i> Eventos y catas de licores</li>
+                    <li class="scroll"><i class="fas fa-check"></i> Comunidad activa y participativa</li>
+                    <li class="scroll"><i class="fas fa-check"></i> Acceso a descuentos en bares y tiendas asociadas</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 scroll">
+                <img src="images/portada2.jpg" class="img-fluid rounded" alt="Imagen">
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="text-light text-center py-3 mt-6">
+    <p>© 2024 Bebamos - Powered by deepia</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="scripts.js"></script>
+
+<script>
+    ScrollReveal().reveal('.scroll', {
+        delay: 200,
+        distance: '30px',
+        origin: 'bottom',
+        duration: 500,
+        easing: 'ease-out',
+        interval: 200
+    });
+</script>
+
+</body>
+</html>

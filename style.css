@@ -1,0 +1,219 @@
+body {
+    background-color: #eaf4f4;
+    color: #22202e;
+    font-family: 'Sarabun', sans-serif;
+}
+.serif{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 1.1em;
+	color: #88d600;
+	font-style: italic;
+}
+.violeta {
+	color: #22202e !important;
+}
+.fas{
+	color:#88d600;
+}
+.verde{
+	color:#88d600 !important;
+}
+.navbar {
+    transition: top 0.3s;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar.hidden {
+    top: -100px;
+}
+
+.nav-link {
+    color: #eaf4f4 !important;
+}
+
+.nav-link:hover {
+    color: #88d600 !important;
+}
+
+
+header a.navbar-brand:hover {
+    color: #88d600 !important;
+}
+
+.activepage{
+    color: #88d600 !important;
+}
+
+#recipeForm {
+    margin-bottom: 30px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+.animated {
+    animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+.slideInFromTop {
+    animation-name: slideInFromTop;
+}
+
+#aboutBebamos {
+    background-image: url('images/bar.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#portadaessentials {
+    background-image: url('images/essentials.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#portadablog {
+    background-image: url('images/blog.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#portadarecetas {
+    background-image: url('images/recetas.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.aboutbebamosdiv {
+    margin-top: 100px;
+    padding-top: 7%;
+    padding-bottom: 12%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header nav {
+    background-color: #22202e !important;
+}
+
+footer {
+    background-color: #22202e !important;
+}
+
+ h3, h4, h5 { 
+color: #3c1642;
+}
+
+.card-title2 { 
+color: #88d600;
+}
+
+.btn-primary {
+	background-color:#3c1642;
+	border: 0;
+}
+.btn-primary:hover {
+	background-color:#88d600;
+	border: 0;
+}
+
+.btn-primary:active,
+.btn-primary:focus:active {
+    background-color: #88d600 !important; /* Cambiar a verde */
+    border: 0;
+}
+
+.card-body {
+	border-radius: 15px !important;
+}
+
+.card{
+    border-radius: 15px;
+}
+
+.publicadas h2{
+    margin-bottom: 2rem;
+}
+#essentialIngredients .card-body:hover{
+    background-color: #22202e;
+    color: white;
+}
+
+#essentialIngredients .card-body:hover h5{
+    background-color: #22202e;
+    color: #88d600;
+}
+
+
+#aboutBebamos {
+    background-image: url('images/bar.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Añadido */
+    height: 100vh; /* Ajusta según la altura del navbar */
+}
+
+.aboutbebamosdiv {
+    margin-top: 100px;
+    padding-top: 7%;
+    padding-bottom: 12%;
+    height: 100%; /* Añadido */
+    display: flex; /* Añadido */
+    flex-direction: column; /* Añadido */
+    justify-content: center; /* Añadido */
+    align-items: center; /* Añadido */
+}
+
+.arrow-down {
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 24px;
+}
+#consejosModal ul li::before {
+    color: #88d600 !important;
+}
+
+.tipsPresentacion {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.tipsPresentacion h2 {
+    color: #3c1642;
+}
+
+
+.tipsPresentacion p {
+    color: #22202e;
+}
+
+
